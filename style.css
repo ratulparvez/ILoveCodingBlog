@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+h2, h3{
+    margin: 0;
+}
+body{
+
+    background-color: black;
+    margin: 20px 0;
+    font-family: sans-serif;
+
+}
+
+.wrapper{
+
+    width: 800px;
+    margin: 0 auto;
+border-radius: 10px;
+    background-color: white;
+
+}
+
+header {
+padding: 50px;
+overflow: hidden;
+
+
+
+
+}
+
+header > #logo{
+
+    font-size: 2em;
+    float: left;
+}
+nav{
+    float: right;
+}
+
+main{
+    padding: 50px;
+   overflow: hidden;
+}
+section{
+    width: 70%;
+    float: left;
+
+}
+article{
+    padding: 30px 0;
+border-bottom:  1px solid #cccc;
+}
+article:last-child{
+    border-bottom: 0px;
+}
+
+aside{
+    width: 30%;
+    float: right;
+
+    background-color:bisque;
+    padding: 10px; 
+}
+
+aside h3{
+    background-color: blue;
+    color: azure;
+    padding: 10px;
+}
+
+aside a{
+    color: brown;
+
+}
+footer{
+    padding: 20px;
+    border-top: 1px solid rgb(204, 204, 204);
+    text-align: center;
+}
